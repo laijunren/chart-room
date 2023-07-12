@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Lifelogo';
+    src: url(/fonts/Lifelogo.ttf);
+}
+
+h1 {
+    text-align: center;
+    font-size: 3vw;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-family: 'Lifelogo';
+}
+
+.container {
+    width: 50%;
+    height: 85vh;
+    position: fixed;
+    right: 30%;
+    overflow: auto;
+    background-color: rgba(217, 219, 219, 0.5);
+}
+
+.message {
+    width: 100%;
+    height: 60vh;
+    overflow: auto;
+    flex-flow: column-reverse;
+    margin-top: 2vh;
+}
+
+textarea {
+    margin-top: 2vh;
+    width: 99%;
+    height: 15vh;
+    font-size: 1vw;
+}
+
+#send {
+    text-align: center;
+    float: right;
+    font-size: 1vw;
+    right: 1%;
+}
+
+.users {
+    position: fixed;
+    width: 15%;
+    height: 85vh;
+    right: 15%;
+    margin-left: 75%;
+    overflow: auto;
+    background-color: rgba(85, 99, 99, 0.5);
+}
+
+.item {
+    height: auto;
+    width: 100%;
+    margin-top: 1vh;
+}
+
+.name {
+    position: relative;
+    top: 1vh;
+    left: 1vw;
+    width: 20%;
+    font-size: 1.2vw;
+}
+
+/* 时间样式 */
+.date {
+    position: relative;
+    float: right;
+    top: 2vh;
+    right: 2vw;
+    font-size: 0.8vw;
+}
+/* 文本 */
+.content {
+    margin-top: 1.5vh;
+    margin-left: 2vw;
+    margin-right: 1vw;
+    font-size: 0.8vw;
+}
+
+.system {
+    margin-top: 1vh;
+    color: rgb(74, 75, 75);
+    text-align: center;
+    font-size: 0.5vw;
+}
+
+.userName {
+    font-size: 1vw;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.Name {
+    font-size: 1vw;
+    /* width: 60%; */
+    margin-top: 5%;
+    font-style: italic;
+    text-align: center;
+    /* background:rgba(0,0,0,0.2);
+    border: 1px solid rgba(0,0,0, 0.2); */
+}
+
+/* .Change {
+    font-size: 0.9vw;
+} */
+
+.online {
+    font-size: 1vw;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.count {
+    color: rgb(221, 10, 10);
+}
+
+
+

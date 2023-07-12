@@ -1,0 +1,13 @@
+{
+    "name": "Assignment4",
+    "version": "1.0.0",
+    "description": "ca4",
+    "main": "index.js",
+    "scripts": {},
+    "author": "Junren Lai",
+    "dependencies": {
+        "express": "^4.18.2",
+        "nodejs-websocket": "^1.7.2",
+        "socket.io": "^2.3.0"
+    }
+}

@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Lifelogo';
+    src: url(/fonts/Lifelogo.ttf);
+}
+
+h1 {
+    text-align: center;
+    font-size: 10vw;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    font-family: 'Lifelogo';
+}
+
+h2 {
+    font-family: 'Microsoft YaHei';
+    text-align: center;
+    font-style: italic;
+    color:rgba(85, 99, 99, 0.5)
+}
+
+
+button {
+    text-align: center;
+    font-size: 3vw;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Lifelogo';
+    border-radius: 15px;
+    background-color: #2eb872;
+    color: rgb(75, 77, 74);
+    cursor: pointer;
+}
+
+.about {
+    margin-top: 2%;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+}
+
+a {
+    text-align: center;
+    font-size: 1.5vw;
+    color:rgba(85, 99, 99, 0.5)
+}

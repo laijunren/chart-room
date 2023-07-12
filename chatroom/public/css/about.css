@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Lifelogo';
+    src: url(/fonts/Lifelogo.ttf);
+}
+
+h1 {
+    text-align: center;
+    font-size: 3vw;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-family: 'Lifelogo';
+}
+
+.details {
+    width: 50%;
+    position: fixed;
+    right: 30%;
+}
+
+
+li {
+    font-size: 1vw;
+}

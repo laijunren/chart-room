@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Home page</title>
+        <meta name="description" content="">
+        <link rel="stylesheet" href="/css/chat.css">
+        <script src="/js/jquery-3.6.3.min.js"></script>
+        <script src="/js/faker.min.js"></script>
+    </head>
+    <body>      
+        <script type="text/javascript" color="0,0,0" opacity='0.5' zIndex="-2" count="150" src="/js/canvas-nest.min.js"></script>
+        <h1>Chat Room</h1>
+
+        <div class="container">
+            
+            <div class="message">
+            </div>
+            
+            <div>
+                <textarea id="textarea" type="text"></textarea>
+                <button id="send">Send</button>
+            </div>
+        </div>
+        
+
+        <div class="users">
+            
+            <div class="userName">My Name: </div>
+            <div>
+                <div class="Name"></div>
+            </div>
+            
+            <hr/>
+            <div class="online">Active users: <span class="count"></span></div>
+            
+            <ul>
+            </ul>
+        </div>
+<script src="/socket.io/socket.io.js"></script>
+    <script src="/js/chat.js"></script>
+    </body>
+</html>
